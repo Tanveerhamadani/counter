@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Edu NSW ACT Foundation", cursive;
+}
+
+body {
+  background: #408e91;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  background: #daf5ff;
+  padding: 3rem;
+  border-radius: 5rem;
+}
+.counter {
+  color: #141f20;
+  font-size: 2rem;
+}
+.counterhead {
+  background: #408e91;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  color: #dbeaee;
+}
+
+.btns-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  background: #ffeaea;
+  border: 2px solid #57c5b6;
+  border-radius: 3rem;
+}
+
+.count {
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid #f5c6ec;
+  font-weight: bolder;
+  letter-spacing: 0.1rem;
+}
+
+.count1 {
+  background: #fe6244;
+  color: lightyellow;
+}
+
+.count2 {
+  background: #4d4d4d;
+  color: white;
+}
+.count3 {
+  background: #f7f1e5;
+}
